@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    background: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.freepik.com%2Ffree-photos-vectors%2Feducation-background&psig=AOvVaw1OsP74nfSAhFQ53N-H3_Is&ust=1723369405694000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMDj1rqR6ocDFQAAAAAdAAAAABAE');
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+form {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    background: white;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin: 0.5em 1em;
+}
+
+input {
+    width: 90%;
+    padding: 0.8em;
+    margin: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+h2{
+    text-align: center;
+    color: #45a049;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.8em;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0.5em 1em;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#records-section {
+    max-width: 600px;
+    margin: 2em auto;
+    padding: 1em;
+    background: white;
+    border-radius: 5px;
+    overflow-y: auto;
+    max-height: 300px; /* Set a fixed height for scrollbar */
+}
+
+#register{
+    width: 80%;
+}
